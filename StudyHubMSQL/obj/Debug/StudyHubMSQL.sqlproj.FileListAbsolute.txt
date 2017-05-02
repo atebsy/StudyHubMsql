@@ -1,0 +1,5 @@
+C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\bin\Debug\StudyHubMSQL.dacpac
+C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\bin\Debug\StudyHubMSQL.dll
+C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\bin\Debug\StudyHubMSQL.pdb
+C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\obj\Debug\StudyHubMSQL.dll
+C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\obj\Debug\StudyHubMSQL.pdb
