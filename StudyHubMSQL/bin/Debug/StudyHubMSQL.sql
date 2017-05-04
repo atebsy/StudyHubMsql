@@ -40,47 +40,11 @@ USE [$(DatabaseName)];
 
 
 GO
-PRINT N'Dropping CK__User__UserType__29572725...';
+PRINT N'Dropping CK__User__UserType__52593CB8...';
 
 
 GO
-ALTER TABLE [dbo].[User] DROP CONSTRAINT [CK__User__UserType__29572725];
-
-
-GO
-PRINT N'Creating FK_Tutorial_Speciality...';
-
-
-GO
-ALTER TABLE [dbo].[Tutorial] WITH NOCHECK
-    ADD CONSTRAINT [FK_Tutorial_Speciality] FOREIGN KEY ([SpecialityId]) REFERENCES [dbo].[Speciality] ([SpecialityId]) ON DELETE CASCADE ON UPDATE CASCADE;
-
-
-GO
-PRINT N'Creating FK_Tutorial_User...';
-
-
-GO
-ALTER TABLE [dbo].[Tutorial] WITH NOCHECK
-    ADD CONSTRAINT [FK_Tutorial_User] FOREIGN KEY ([userId]) REFERENCES [dbo].[User] ([UserId]) ON DELETE CASCADE ON UPDATE CASCADE;
-
-
-GO
-PRINT N'Creating FK_UserSpeciality_Speciality...';
-
-
-GO
-ALTER TABLE [dbo].[UserSpeciality] WITH NOCHECK
-    ADD CONSTRAINT [FK_UserSpeciality_Speciality] FOREIGN KEY ([SpecialityId]) REFERENCES [dbo].[Speciality] ([SpecialityId]);
-
-
-GO
-PRINT N'Creating FK_UserSpeciality_User...';
-
-
-GO
-ALTER TABLE [dbo].[UserSpeciality] WITH NOCHECK
-    ADD CONSTRAINT [FK_UserSpeciality_User] FOREIGN KEY ([UserId]) REFERENCES [dbo].[User] ([UserId]);
+ALTER TABLE [dbo].[User] DROP CONSTRAINT [CK__User__UserType__52593CB8];
 
 
 GO
@@ -127,16 +91,6 @@ PRINT N'Checking existing data against newly created constraints';
 
 GO
 USE [$(DatabaseName)];
-
-
-GO
-ALTER TABLE [dbo].[Tutorial] WITH CHECK CHECK CONSTRAINT [FK_Tutorial_Speciality];
-
-ALTER TABLE [dbo].[Tutorial] WITH CHECK CHECK CONSTRAINT [FK_Tutorial_User];
-
-ALTER TABLE [dbo].[UserSpeciality] WITH CHECK CHECK CONSTRAINT [FK_UserSpeciality_Speciality];
-
-ALTER TABLE [dbo].[UserSpeciality] WITH CHECK CHECK CONSTRAINT [FK_UserSpeciality_User];
 
 
 GO

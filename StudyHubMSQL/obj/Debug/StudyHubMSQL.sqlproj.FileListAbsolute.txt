@@ -3,3 +3,7 @@ C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\bi
 C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\bin\Debug\StudyHubMSQL.pdb
 C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\obj\Debug\StudyHubMSQL.dll
 C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\obj\Debug\StudyHubMSQL.pdb
+C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\obj\Debug\Model.xml
+C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\obj\Debug\refactor.xml
+C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\obj\Debug\postdeploy.sql
+C:\Users\Joel\Documents\Visual Studio 2012\Projects\StudyHubMSQL\StudyHubMSQL\obj\Debug\predeploy.sql
