@@ -40,11 +40,11 @@ USE [$(DatabaseName)];
 
 
 GO
-PRINT N'Dropping CK__User__UserType__52593CB8...';
+PRINT N'Dropping CK__User__UserType__5AEE82B9...';
 
 
 GO
-ALTER TABLE [dbo].[User] DROP CONSTRAINT [CK__User__UserType__52593CB8];
+ALTER TABLE [dbo].[User] DROP CONSTRAINT [CK__User__UserType__5AEE82B9];
 
 
 GO
